@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230928 20:10:52.560" rpa="false" schemaversion="4">
+<suite id="s1" name="Test03" source="C:\Users\Admin\OneDrive\Bureau\PROJET REBOT\Seance 3\testcases\Test03.robot">
+<test id="s1-t1" name="tc01" line="11">
+<kw name="Log" library="BuiltIn">
+<arg>test1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:10:52.744" level="INFO">test1</msg>
+<status status="PASS" starttime="20230928 20:10:52.743" endtime="20230928 20:10:52.744"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" starttime="20230928 20:10:52.743" endtime="20230928 20:10:52.744"/>
+</test>
+<test id="s1-t2" name="tc02" line="14">
+<kw name="Log" library="BuiltIn">
+<arg>test2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:10:52.746" level="INFO">test2</msg>
+<status status="PASS" starttime="20230928 20:10:52.746" endtime="20230928 20:10:52.746"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" starttime="20230928 20:10:52.745" endtime="20230928 20:10:52.747"/>
+</test>
+<test id="s1-t3" name="tc03" line="17">
+<kw name="Log" library="BuiltIn">
+<arg>test3</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:10:52.749" level="INFO">test3</msg>
+<status status="PASS" starttime="20230928 20:10:52.748" endtime="20230928 20:10:52.749"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" starttime="20230928 20:10:52.748" endtime="20230928 20:10:52.749"/>
+</test>
+<test id="s1-t4" name="tc04" line="20">
+<kw name="Log" library="BuiltIn">
+<arg>test4</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:10:52.751" level="INFO">test4</msg>
+<status status="PASS" starttime="20230928 20:10:52.751" endtime="20230928 20:10:52.751"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" starttime="20230928 20:10:52.750" endtime="20230928 20:10:52.751"/>
+</test>
+<status status="PASS" starttime="20230928 20:10:52.562" endtime="20230928 20:10:52.751"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">regression</stat>
+<stat pass="2" fail="0" skip="0">sanity</stat>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="Test03">Test03</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
